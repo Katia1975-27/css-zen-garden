@@ -1,27 +1,42 @@
 /* last content div padding bottom */
-.main > div:nth-last-child(2){
-    border-radius: 0 0 2em 0;
-    margin-bottom: 10px;
+body{
+    color: black;
+    background-color: aqua;
+    background-image: url("/images/prova.png");
+    /*background-position-x: right;*/
+    /*background-position-y: bottom;*/
+    /*background-attachment: fixed;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    font-family:'Inconsolata', monospace;
 }
 
-.main div{
-    margin-top: -20px;
-    margin-left: 0;
+p{
+    color: initial;
 }
 
-div h3 {
-    font-family: "Zen Loop", cursive;
-    font-size: 3em;
-    margin-bottom: .1em;
+h1 h2 h3 h4 h5 h6  {
+    font-weight: unset ;
+}
+header {
+
+    /*background-image: url("/images/prova.png")*/
+    background-image: url("/images/Bansky.png"),
+                      linear-gradient(lightyellow, yellow);
+    background-clip: padding-box;
+    margin: 60px;
+    border: dotted 5px red;
+    border-radius: 50%;
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+    border-image: linear-gradient(red, blue);
+    border-image-repeat:  space;
+
+    /*background: no-repeat 30px bottom/20% url("/images/Bansky.png"), no-reapet linear-gradient(lightyellow, yellow);*/
+
 }
 
-/* custom
-/* first letter of each p after h3 */
-.main h3 + p::first-letter {
-    text-transform: capitalize;
-    font-family: "Zen Loop", cursive;
-    font-style: italic;
-    color: var(--dark-color);
-    font-size: 3.6em;
-    margin: 0 5px 5px 0;
+abbr {
+    text-decoration: initial;
 }
