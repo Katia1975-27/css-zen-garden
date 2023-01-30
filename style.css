@@ -2,5 +2,5 @@
 /*vendor   */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 /*style*/
+@import "header.css";
 @import "main.css";
-/*@import "header.css";*/

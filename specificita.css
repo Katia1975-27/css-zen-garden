@@ -1,0 +1,32 @@
+/*0,1,0,1*/
+a#zen-myLink{
+    padding: 25px;
+    background: green;
+}
+
+/*0,0,1,1*/
+a.myLink{
+    padding: 25px;
+    background: red;
+}
+
+/*0,0,0,1*/
+
+a{
+    padding: 25px;
+    background: aqua;
+}
+
+
+/*altro esempio */
+/*0,0,2,3*/
+section div.summary a.myLink{
+    padding: 25px;
+    background: red;
+}
+
+/*0,0,1,3*/
+section div a.myLink{
+    padding: 25px;
+    background: aqua;
+}
