@@ -1,0 +1,26 @@
+/* dichiarare le variabili*/
+#zen-intro a {
+  color: green;
+  margin: 2em;
+  transition: all 2s ease;
+}
+#zen-intro a:active {
+  color: rgb(22, 71, 22);
+}
+#zen-intro a:hover {
+  color: rgb(22, 71, 22);
+}
+section {
+  background-color: red;
+}
+section::after {
+  content: "x";
+  color: red;
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: green;
+}
+
+/* posso insere qui la import:   @importo "nome del file css" *//*# sourceMappingURL=style.css.map */

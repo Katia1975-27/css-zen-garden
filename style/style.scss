@@ -1,0 +1,24 @@
+/* dichiarare le variabili*/
+@import "variabili";
+@import "zen-intro-style";
+
+@mixin clearfix {
+    &::after{
+        content: "x";
+        color:red;
+        clear: both;
+    }
+}
+
+section{
+    background-color: red;
+    @include clearfix();
+
+}
+h1,h2,h3,h4,h5,h6 {
+    color: $brand-color;
+}
+
+
+/* posso insere qui la import:   @importo "nome del file css" */
+

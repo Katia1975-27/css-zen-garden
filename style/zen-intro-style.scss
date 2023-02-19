@@ -1,0 +1,21 @@
+#zen-intro{
+    a{
+        color: $brand-color;
+        margin: $spacing + .5em;
+        transition: all 2s ease;
+        &:active{
+            color: $brand-dark-color;
+        }
+        &:hover{
+            color: $brand-dark-color;
+        }
+    
+        @media ($tablet-screen){
+    
+        }
+    
+    }
+     
+    
+    }
+    
